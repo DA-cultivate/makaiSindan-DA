@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+    z-index: 15;
+    color: rgb(255, 164, 164);
+    text-shadow: 0 4px #000;
+    margin: 30px 0;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid rgb(68, 97, 62);
+    border-right: 180px solid transparent;
+    border-left: 180px solid transparent;
+    border-radius: 30%;
+    position: absolute;
+    left: 35%;
+    top: 0;
+    z-index: -1;
+}
+
+.setumei-wrap {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(157, 199, 255);
+    text-align: center;
+    box-sizing: border-box;
+}
+.setumei-wrap p {
+    padding: 0;
+    margin: 0;
+}
+.form-control {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kekka-wrap {
+    display: none;
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 20px auto;
+}
+.kekka-title {
+    text-align: center;
+    font-size: 2rem;
+}
+.keka-img {
+    width: 100%;
+}
+.keka-img img {
+    width: 100%;
+}
+.kekka-mane {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.i1 {
+    display: none;
+}
+.i2 {
+    display:none;
+}
+.i3 {
+    display:none;
+}
+.i4 {
+    display:none;
+}
